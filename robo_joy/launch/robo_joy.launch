@@ -1,0 +1,4 @@
+<launch>
+        <node name="joy" type="joy_node" pkg="joy" />
+	<node name="joy_listen_node" type="joy_listen_node" pkg="robo_joy" />
+</launch>

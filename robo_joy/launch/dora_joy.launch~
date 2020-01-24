@@ -1,0 +1,9 @@
+<launch>
+	<node name="joy" type="joy_node" pkg="joy" />
+	<!-- <node name="joy_serial" type="joy_serial" pkg="dora_joy" output="screen" /> -->
+        <node name="serial_receive1" type="serial_receive_node1" pkg="dora_serial" output="screen" />
+<node name="serial_receive2" type="serial_receive_node2" pkg="dora_serial" output="screen" />
+<node name="serial_receive3" type="serial_receive_node3" pkg="dora_serial" output="screen" />
+<node name="serial_receive4" type="serial_receive_node4" pkg="dora_serial" output="screen" />
+	<node name="joy_listen_node" type="joy_listen_node" pkg="dora_joy" />
+</launch>
