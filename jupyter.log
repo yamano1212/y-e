@@ -1,0 +1,187 @@
+[I 14:55:56.656 NotebookApp] JupyterLab beta preview extension loaded from /Users/yamanoakirayuu/.pyenv/versions/anaconda3-5.2.0/lib/python3.6/site-packages/jupyterlab
+[I 14:55:56.656 NotebookApp] JupyterLab application directory is /Users/yamanoakirayuu/.pyenv/versions/anaconda3-5.2.0/share/jupyter/lab
+[I 14:55:56.661 NotebookApp] Serving notebooks from local directory: /Users/yamanoakirayuu/src/robotics
+[I 14:55:56.661 NotebookApp] 0 active kernels
+[I 14:55:56.661 NotebookApp] The Jupyter Notebook is running at:
+[I 14:55:56.661 NotebookApp] http://localhost:8888/?token=28757257b00026f9f86b206f362f2fddcd541bb8305c21ca
+[I 14:55:56.661 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:55:56.662 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=28757257b00026f9f86b206f362f2fddcd541bb8305c21ca&token=28757257b00026f9f86b206f362f2fddcd541bb8305c21ca
+[I 14:55:56.849 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 14:57:17.197 NotebookApp] Kernel started: 445ec95c-8f75-4efe-8ee6-77b561afead1
+[I 14:57:17.697 NotebookApp] Adapting to protocol v5.1 for kernel 445ec95c-8f75-4efe-8ee6-77b561afead1
+[I 15:01:17.189 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:03:17.190 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:05:17.173 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:07:17.183 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:09:17.180 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:11:17.189 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:13:17.197 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:23:17.195 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:25:17.322 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:27:17.199 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:31:17.195 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:33:17.201 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:35:17.201 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:37:17.199 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:39:17.202 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:39:42.767 NotebookApp] Creating new notebook in 
+[I 15:39:43.324 NotebookApp] Kernel started: 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 15:39:43.932 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 15:41:17.323 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:41:43.311 NotebookApp] Saving file at /uncertainly.ipynb
+[I 15:45:17.210 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:46:11.483 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:49:43.307 NotebookApp] Saving file at /uncertainly.ipynb
+[I 15:51:46.474 NotebookApp] Saving file at /uncertainly.ipynb
+[I 15:53:43.406 NotebookApp] Saving file at /uncertainly.ipynb
+[I 15:54:14.357 NotebookApp] Saving file at /robotics_003.ipynb
+[I 15:54:21.181 NotebookApp] Starting buffering for 445ec95c-8f75-4efe-8ee6-77b561afead1:3b9d25c86b1a4219bd2a482d3ba0e3af
+[I 15:54:21.704 NotebookApp] Kernel restarted: 445ec95c-8f75-4efe-8ee6-77b561afead1
+[I 15:54:22.170 NotebookApp] Adapting to protocol v5.1 for kernel 445ec95c-8f75-4efe-8ee6-77b561afead1
+[I 15:54:22.171 NotebookApp] Restoring connection for 445ec95c-8f75-4efe-8ee6-77b561afead1:3b9d25c86b1a4219bd2a482d3ba0e3af
+[I 15:54:22.171 NotebookApp] Replaying 6 buffered messages
+[IPKernelApp] WARNING | No such comm: c892728e0e6440b18a730a3460a9c6a7
+[I 15:54:30.195 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 15:54:30.512 NotebookApp] Kernel restarted: 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 15:54:30.968 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 15:54:30.968 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 15:54:30.968 NotebookApp] Replaying 6 buffered messages
+[I 15:55:43.306 NotebookApp] Saving file at /uncertainly.ipynb
+[I 15:58:03.872 NotebookApp] Starting buffering for 445ec95c-8f75-4efe-8ee6-77b561afead1:3b9d25c86b1a4219bd2a482d3ba0e3af
+[I 16:01:43.306 NotebookApp] Saving file at /uncertainly.ipynb
+[IPKernelApp] WARNING | No such comm: 10e7e45b6b394e378cb0505369a491d1
+[IPKernelApp] WARNING | No such comm: 5aded83879044091b3e29233fdb6b1e9
+[I 16:03:43.314 NotebookApp] Saving file at /uncertainly.ipynb
+[I 16:05:36.479 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 16:05:38.318 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 16:05:38.319 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 16:05:43.444 NotebookApp] Saving file at /uncertainly.ipynb
+[I 17:59:51.735 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 17:59:53.942 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 17:59:53.943 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 12:59:11.536 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:dd6405fefc7440889695a265cc307b6a
+[I 12:59:11.850 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 12:59:13.548 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:46:06.638 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:46:07.967 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:46:07.968 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:22:00.522 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:22:02.330 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 19:22:02.330 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:45:36.614 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:45:38.617 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 20:45:38.617 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 09:46:03.849 NotebookApp] Saving file at /uncertainly.ipynb
+[I 09:48:03.839 NotebookApp] Saving file at /uncertainly.ipynb
+[I 09:56:03.848 NotebookApp] Saving file at /uncertainly.ipynb
+[I 09:58:03.838 NotebookApp] Saving file at /uncertainly.ipynb
+[I 14:21:58.597 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 14:22:00.093 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 14:22:00.094 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:13:46.816 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:13:48.386 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 16:13:48.387 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:46:43.394 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:46:45.425 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 19:46:45.426 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:09:35.888 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:09:37.752 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 20:09:37.753 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:38:24.801 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:38:26.007 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 21:38:26.008 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:55:40.724 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:55:42.474 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 19:55:42.478 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:51:48.374 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:51:49.862 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 20:51:49.862 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:40:13.740 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:40:16.026 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 21:40:16.028 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:36:07.419 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:36:08.854 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 10:36:08.855 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:37:01.011 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:37:03.643 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 10:37:03.644 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 11:20:48.660 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 11:20:50.625 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 11:20:50.628 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:48:23.276 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:48:25.053 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 18:48:25.054 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:44:01.162 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:44:02.880 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 19:44:02.881 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 09:32:54.950 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 09:32:56.122 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 09:32:56.124 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:27:44.908 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:27:46.259 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:27:46.261 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:56:59.753 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:57:01.326 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 18:57:01.327 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 03:15:57.727 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 03:15:59.106 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 03:15:59.107 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 12:51:50.156 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 12:51:52.001 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 12:51:52.004 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 14:12:21.611 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 14:12:22.767 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 14:12:22.768 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:14:40.786 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:14:42.494 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 16:14:42.495 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:15:11.725 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:15:13.215 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 16:15:13.216 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 17:47:59.895 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 17:48:01.207 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 17:48:01.209 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 09:41:11.539 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 09:41:13.506 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 09:41:13.508 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:05:46.253 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 10:05:47.339 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 10:05:47.341 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 11:40:57.296 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 11:40:58.512 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 11:40:58.514 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:47:53.424 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:47:55.511 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 18:47:55.512 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:23:26.832 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 21:23:28.680 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 21:23:28.680 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 22:20:41.555 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 22:20:43.409 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 22:20:43.411 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:02:27.938 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:02:29.990 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:02:29.992 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:41:39.634 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:41:41.172 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:41:41.175 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:56:33.640 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 13:56:35.650 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 13:56:35.654 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 03:31:55.215 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 03:31:57.677 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 03:31:57.679 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:43:24.003 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 18:43:25.708 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 18:43:25.710 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:07:49.622 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 19:07:50.792 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 19:07:50.794 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:23:50.595 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 20:23:52.155 NotebookApp] Adapting to protocol v5.1 for kernel 08a54000-bb6d-436c-8e1f-0cf5eb9308d9
+[I 20:23:52.157 NotebookApp] Restoring connection for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
+[I 16:25:55.560 NotebookApp] Starting buffering for 08a54000-bb6d-436c-8e1f-0cf5eb9308d9:e5390314d3a040839fe7e893f9b291a4
