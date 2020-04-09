@@ -1,0 +1,124 @@
+/**********************************************************************
+/ 
+/ 最終更新日：2016/10/23
+/ 作成者：Suebe
+/
+/ 参考にしたサイト
+/ joyノードのサブスクライブに関して
+/   http://ros-robot.blogspot.jp/2010/01/ps3.html
+/ xboxのコントローラのボタンとスティックの割り当てに関して
+/   http://wiki.ros.org/joy
+/ 
+***********************************************************************/
+
+#include <ros/ros.h>
+#include <sensor_msgs/Joy.h>
+#include <serial/serial.h>
+#include <stdio.h>
+#include <string>
+#include <sstream>
+#include <time.h>
+
+// シリアル通信の設定
+std::string port0 = "/dev/ttyUSBwheel1";
+std::string port1 = "/dev/ttyUSBwheel2";
+std::string port2 = "/dev/ttyUSBwheel3";
+std::string port3 = "/dev/ttyUSBwheel4";
+uint32_t baud = 115200; //setup baud
+serial::Serial joy_serial0(port0, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial1(port1, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial2(port2, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial3(port3, baud, serial::Timeout::simpleTimeout(1000));
+
+class joy_listen
+{
+public:
+	joy_listen();
+	~joy_listen();
+	char* joy_get_data();
+
+private:
+	void joyCallback(const sensor_msgs::Joy& joy); // sensor_msgs::Joyというのがメッセージの型
+	ros::Subscriber sub;  // サブスクライバの宣言
+	ros::NodeHandle nh;  // ノードの宣言
+        int triangle_button;
+        int circle_button;
+        int x_mark_button;
+        int square_button;
+        int L1_button;
+        int R1_button;
+	char data[];  // 送信するデータ
+	int ref_speed;  // wheel reference speed[mm/s]
+        int ref_angle;  // reference angle of steering motor
+};
+
+// サブスクライバを宣言するコンストラクタ
+joy_listen::joy_listen()
+{
+	// joyノードをサブスクライブするサブスクライバであると宣言。Callback関数としてjoy_listen::joyCallback関数を呼ぶ。
+	sub = nh.subscribe("joy", 10, &joy_listen::joyCallback, this);  
+}
+
+joy_listen::~joy_listen()
+{
+	; // デストラクタは何もしない
+}
+
+// 送信するデータを返す関数
+char* joy_listen::joy_get_data()
+{
+	return data;  
+}
+
+// サブスクライブしたときに呼ばれるCallback関数
+void joy_listen::joyCallback(const sensor_msgs::Joy& joy)
+{
+//	ref_speed = 50 * joy.axes[3];
+        ref_speed = 5 * joy.axes[3];
+	ref_angle = 90 * joy.axes[0];
+	L1_button = joy.buttons[10];
+	R1_button = joy.buttons[11];
+	triangle_button = joy.buttons[12];
+	circle_button = joy.buttons[13];
+	x_mark_button = joy.buttons[14];
+	square_button = joy.buttons[15];
+
+       	if(ref_speed > 0 && ref_angle > 0)
+	  sprintf(data, "+%d,+%d,%d,%d,%d,%d\n", ref_speed, ref_angle, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed > 0 && ref_angle == 0)
+	  sprintf(data, "+%d,0,%d,%d,%d,%d\n", ref_speed, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed > 0 && ref_angle < 0)
+	  sprintf(data, "+%d,%d,%d,%d,%d,%d\n",ref_speed, ref_angle, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed == 0 && ref_angle > 0)
+	  sprintf(data, "0,+%d,%d,%d,%d,%d\n", ref_angle, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed == 0 && ref_angle == 0)
+	  sprintf(data, "0,0,%d,%d,%d,%d\n", circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed == 0 && ref_angle < 0)
+	  sprintf(data, "0,%d,%d,%d,%d,%d\n", ref_angle, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed < 0 && ref_angle > 0)
+	  sprintf(data, "%d,+%d,%d,%d,%d,%d\n",ref_speed, ref_angle, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed < 0 && ref_angle == 0)
+	  sprintf(data, "%d,0,%d,%d,%d,%d\n", ref_speed, circle_button, square_button, L1_button, R1_button);
+	else if(ref_speed < 0 && ref_angle < 0)
+	sprintf(data, "%d,%d,%d,%d,%d,%d\n",ref_speed, ref_angle, circle_button, square_button, L1_button, R1_button);
+}
+
+int main(int argc, char** argv)
+{
+	char* data;
+	ros::init(argc, argv, "joy_listen_node");  // ノードの宣言
+	joy_listen joy1;  // オブジェクトの宣言
+	ros::Rate rate(30.0);
+
+	while(ros::ok())
+	{
+		ros::spinOnce();  // 
+		data = joy1.joy_get_data();  // 送信するデータを読む
+		joy_serial0.write(data);  // データを送信する
+		joy_serial1.write(data);
+		joy_serial2.write(data);
+		joy_serial3.write(data);
+		ROS_INFO("%s", data);  // デバッグ用
+		rate.sleep();
+	}
+}

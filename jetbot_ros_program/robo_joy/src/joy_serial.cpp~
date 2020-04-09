@@ -1,0 +1,35 @@
+#include <ros/ros.h>
+#include <serial/serial.h>
+#include <stdio.h>
+#include <string>
+#include <sstream>
+
+std::string port0 = "/dev/ttyUSBwheel1";
+std::string port1 = "/dev/ttyUSBwheel2";
+std::string port2 = "/dev/ttyUSBwheel3";
+std::string port3 = "/dev/ttyUSBwheel4";
+uint32_t baud = 115200; //setup baud
+serial::Serial joy_serial0(port0, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial1(port1, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial2(port2, baud, serial::Timeout::simpleTimeout(1000));
+serial::Serial joy_serial3(port3, baud, serial::Timeout::simpleTimeout(1000));
+
+
+int main(int argc, char** argv)
+{
+	ros::init(argc, argv, "joy_serial_node");
+	std::string data0;
+	std::string data1;
+	std::string data2;
+	std::string data3;
+	while(ros::ok())
+	{
+		data0 = joy_serial0.readline();
+		data1 = joy_serial1.readline();
+		data2 = joy_serial2.readline();
+		data3 = joy_serial3.readline();
+		//ROS_INFO("\n port0:%s ", data0.c_str());
+		ROS_INFO("\n port0:%s \nport1:%s \nport2:%s \nport3:%s", data0.c_str(), data1.c_str(), data2.c_str(), data3.c_str());
+	}
+	return 0;
+}

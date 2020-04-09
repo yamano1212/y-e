@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(joystick)
+
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  std_msgs
+  joy
+  sensor_msgs
+  serial
+)
+
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES joystick
+#  CATKIN_DEPENDS roscpp std_msgs sensor_msgs serial
+#  DEPENDS system_lib
+)
+
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+
+ add_executable(hello_world_node src/hello_world_node.cpp)
+ add_executable(joy_listen_node src/joy_listen_node.cpp)
+ add_executable(joy_serial src/joy_serial.cpp)
+ add_executable(dora2_dynamixel src/dora2_dynamixel.cpp)
+# add_dependencies(hello_world_node joystick_generate_messages_cpp)
+ target_link_libraries(hello_world_node
+   ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries(joy_listen_node
+   ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries(joy_serial
+   ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries(dora2_dynamixel
+   ${catkin_LIBRARIES}
+ )
