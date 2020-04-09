@@ -1,1 +1,0 @@
-vscode-remote://ssh-remote%2B192.168.10.108/home/jetbot/catkin_build_ws/src/jetbot_motor
